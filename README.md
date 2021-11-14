@@ -6,7 +6,7 @@
 
 Youtube
 </p>
-<a href="https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg"><img src="![image](https://user-images.githubusercontent.com/82709682/141691514-837f1f43-1237-4208-8693-a3a020950e62.png)" width="40" height="40"</a>
+<a href="https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg"><txt="Youtube" width="40" height="40"</a>
 <br>
 </p>
 
