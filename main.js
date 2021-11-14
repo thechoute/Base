@@ -7,13 +7,13 @@ const prefix = '.'
 const conn = require("./lib/index")
 conn.connect()
 const client = conn.client
-client.on('chat-update', async (choute) => {
+client.on('chat-update', async (mek) => {
 try {	  
 if (!mek.hasNewMessage) return
 if (!mek.messages) return
 if (mek.key && mek.key.remoteJid == 'status@broadcast') return
 
-choute = mek.messages.all()[0]
+mek = mek.messages.all()[0]
 if (!mek.message) return
 global.blocked
 mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
@@ -69,11 +69,11 @@ message: {
 
 //AUTO RESPUESTA SIN VERIFICACION
 if(body == ('hola')) {
-client.sendMessage(from, 'como estas!', MessageType.text, {quoted: choute})
+client.sendMessage(from, 'como estas!', MessageType.text, {quoted: mek})
 }
   
-if(body == ('Buenos dias')) {
-client.sendMessage(from, 'Solo Dias Porque Bueno Estoy Yo', MessageType.text, {quoted: choute})
+if(body == ('Hola')) {
+client.sendMessage(from, 'Hola? Te haz podido comunicar.', MessageType.text, {quoted: mek})
 }
 
 //ZONA DE COMANDOS	
@@ -89,18 +89,18 @@ message: {
 break		
 case 'foto':
 const imagen = fs.readFileSync('./media/foto.jpg')                
-client.sendMessage(from, imagen, MessageType.image, {quoted: choute, caption: `*Aqui tienes la foto del trio fundado*`})
+client.sendMessage(from, imagen, MessageType.image, {quoted: mek, caption: `*Aqui tienes la foto del trio fundado*`})
 break
                 
 case 'video':
 const video = fs.readFileSync('./media/video.mp4')
-client.sendMessage(from, video, MessageType.video, {quoted: choute, mimetype: 'video/mp4', caption: 'JAJAJA', duration: 999999999})
+client.sendMessage(from, video, MessageType.video, {quoted: mek, mimetype: 'video/mp4', caption: 'JAJAJA', duration: 999999999})
 break
                 
 case 'audio':
 const audio = fs.readFileSync('./media/audio.mp3')
-client.sendMessage(from, audio, MessageType.audio, {quoted: choute, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
-client.sendMessage(from, audio, MessageType.audio, {quoted: choute, mimetype: 'audio/mp3', duration: -9999999})                
+client.sendMessage(from, audio, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', duration: -9999999, ptt: true})
+client.sendMessage(from, audio, MessageType.audio, {quoted: mek, mimetype: 'audio/mp3', duration: -9999999})                
 break
                 
 }
