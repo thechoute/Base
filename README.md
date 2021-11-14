@@ -5,8 +5,6 @@
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
 </p>
 
-
-
 ### PROCESO DE INSTALACION
 Instala archivos necesarios
 ```bash
