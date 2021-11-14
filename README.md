@@ -4,7 +4,7 @@
 <p align="center">
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
 
-# MIS CONTACTOS
+### MIS CONTACTOS
 <p>
 <a href="http://wa.me/18299897014" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
 <a href="http://www.instagram.com/the_choute_" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=flat&logo=instagram" /></a>
