@@ -4,9 +4,6 @@
 <p align="center">
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
 
-</p>
-
-
 		</p>
 ### PROCESO DE INSTALACION
 Instala archivos necesarios
