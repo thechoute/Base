@@ -26,7 +26,7 @@ Clona este repositorio
 ```
 Inicia la instalacion
 ```bash
-- cd BabyBechoso
+- cd Base
 - bash install.sh
 ```
 PARA INICIAR EL BOT
