@@ -23,7 +23,7 @@ Instala archivos necesarios
 ```
 Clona este repositorio
  ```bash
-> git clone https://github.com/thechoute/BabyBechoso
+> git clone https://github.com/thechoute/Base
 ```
 Inicia la instalacion
 ```bash
